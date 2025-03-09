@@ -75,7 +75,7 @@ function Login() {
 
                         <div className="flex justify-center items-center mt-[15px]">
                             <p className="text-[#0A0A0A] text-[12px] font-eastman_regular">
-                                <Link to="/" className="text-[#FF0000] hover:underline">
+                                <Link to="/register" className="text-[#FF0000] hover:underline">
                                     Create an account
                                 </Link>
                             </p>
