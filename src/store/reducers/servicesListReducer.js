@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit'
-import { serviceList } from '../actions/serviceListActions'
+import { serviceList } from '../actions/servicesListActions'
 
 const initialState = {
 	serviceListData: [],
