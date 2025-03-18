@@ -19,15 +19,15 @@ function Home() {
                     <Header />
                     <div className=''>
                         <div className='flex flex-col gap-y-5 items-center mt-[20vh] ml-10 justify-start'>
-                            <div className='bg-white  px-8 text-[#141414] font-eastman_regular rounded-[20px] text-[25px] flex justify-center'>Красота и здоровье</div>
-                            <div className='bg-white w-[195px]  text-[#141414] font-eastman_regular rounded-[20px] text-[25px] flex justify-center'>Клининг</div>
-                            <div className='bg-white w-[300px]  text-[#141414] font-eastman_regular rounded-[20px] text-[25px] flex justify-center'>Репетиторство</div>
-                            <div className='bg-white w-[295px]  text-[#141414] font-eastman_regular rounded-[20px] text-[25px] flex justify-center'>Строительство</div>
-                            <div className='bg-white w-[240px]  text-[#141414] font-eastman_regular rounded-[20px] text-[25px] flex justify-center'>Мед Услуги</div>
+                            <Link to='/beauty' className='bg-white  px-8 text-[#141414] font-eastman_regular rounded-[20px] text-[25px] flex justify-center'>Красота и здоровье</Link>
+                            <Link to='/cleaning' className='bg-white w-[195px]  text-[#141414] font-eastman_regular rounded-[20px] text-[25px] flex justify-center'>Клининг</Link>
+                            <Link to='/tutoring' className='bg-white w-[300px]  text-[#141414] font-eastman_regular rounded-[20px] text-[25px] flex justify-center'>Репетиторство</Link>
+                            <Link to='/building' className='bg-white w-[295px]  text-[#141414] font-eastman_regular rounded-[20px] text-[25px] flex justify-center'>Строительство</Link>
+                            <Link to='/med_service' className='bg-white w-[240px]  text-[#141414] font-eastman_regular rounded-[20px] text-[25px] flex justify-center'>Мед Услуги</Link>
                         </div>
                         <div className='absolute right-5 top-16'>
 
-                            <img src={klever} alt="" className='size-[40vw]' />
+                            <img src={klever} alt="" className='size-[35vw]' />
                         </div>
                     </div>
                 </div>
